@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#08F111"
     android:paddingLeft="16dp"
     android:paddingTop="16dp"
     android:paddingRight="16dp"
@@ -12,7 +13,9 @@
         android:id="@+id/textViewNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nombre:" />
+        android:text="Nombre:"
+        android:textSize="20sp"
+        android:textColor="#7700FF"/>
 
     <EditText
         android:id="@+id/editTextNombre"
@@ -26,7 +29,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/editTextNombre"
         android:layout_marginTop="16dp"
-        android:text="Apellido:" />
+        android:text="Apellido:"
+        android:textColor="#7700FF"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/editTextApellido"
@@ -40,7 +45,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/editTextApellido"
         android:layout_marginTop="16dp"
-        android:text="Edad:" />
+        android:text="Edad:"
+        android:textColor="#7700FF"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/editTextEdad"
@@ -55,7 +62,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/editTextEdad"
         android:layout_marginTop="16dp"
-        android:text="Correo electrónico:" />
+        android:text="Correo electrónico:"
+        android:textColor="#7700FF"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/editTextCorreo"
@@ -70,7 +79,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/editTextCorreo"
         android:layout_marginTop="16dp"
-        android:text="Contraseña:" />
+        android:text="Contraseña:"
+        android:textColor="#7700FF"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/editTextContraseña"
@@ -85,7 +96,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/editTextContraseña"
         android:layout_marginTop="16dp"
-        android:text="Enviar" />
+        android:text="Enviar"
+        android:textColor="#7700FF" />
 
 
 </RelativeLayout>
